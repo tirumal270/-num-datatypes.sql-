@@ -1,3 +1,4 @@
+## numeric datatypes in sql
 create database task2;
 use task2;
 create table salesfigures(salesID int,productID smallint,quantitysold int,revenue decimal(10,2));
