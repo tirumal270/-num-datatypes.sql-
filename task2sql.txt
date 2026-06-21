@@ -1,0 +1,10 @@
+create database task2;
+use task2;
+create table salesfigures(salesID int,productID smallint,quantitysold int,revenue decimal(10,2));
+desc salesfigures;
+create table scientificData(ExpirementID int,Measurment float,ErrorMargin decimal(5,2),Samplesize smallint);
+desc scientificData;
+insert into salesfigures values(1,2,10,100000.12);
+select* from salesfigures;
+insert into scientificData values(1,9.8,9888.99,9);
+select * from scientificData;
